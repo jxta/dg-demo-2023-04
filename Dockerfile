@@ -1,4 +1,5 @@
-FROM jupyter/datascience-notebook
+FROM harbor.vcloud.nii.ac.jp/vcpjupyter/cloudop-notebook:20220725-ssl-cc
+# FROM jupyter/datascience-notebook
 # FROM minidocks/graphviz
 
 USER root
